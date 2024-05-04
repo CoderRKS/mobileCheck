@@ -10,7 +10,9 @@
     // Check if screen width is less than or equal to 768 pixels
     if (screen.width <= 700) {
         document.write("<h1>Mobile</h1>");
-    } else {
+    } else if (screen.width <= 1024){
+        document.write("<h1>Tablet</h1>");
+    } else{
         document.write("<h1>Desktop</h1>");
     }
 </script>
